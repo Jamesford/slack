@@ -34,7 +34,7 @@ type PostMessageParameters struct {
 	AsUser      bool `json:"as_user"`
 	Parse       string `json:"parse"`
 	LinkNames   int `json:"link_names"`
-	Attachments []Attachment
+	Attachments []Attachment `json:"attachments"`
 	UnfurlLinks bool `json:"unfurl_links"`
 	UnfurlMedia bool `json:"unfurl_media"`
 	IconURL     string `json:"icon_url"`
